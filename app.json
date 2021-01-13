@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Goalbook",
+    "entryPoint": "./src/Index.tsx",
+    "slug": "goalbook",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ibrasamer.goalbook",
+      "buildNumber": "0.1.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#EDEDED"
+      },
+      "package": "com.ibrasamer.goalbook",
+      "versionCode": 1
+    }
+  }
+}
